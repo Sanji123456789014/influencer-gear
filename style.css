@@ -69,7 +69,7 @@ button{
     height: 50px;
     width: 20%;
     padding: 10px;
-    background-color: rgb(179, 47, 73);
+    background-color: crimson;
     border-radius: 15px;
 }
 button a{
@@ -104,13 +104,19 @@ button a{
      background-color: white;
      border: 1px solid white;
      border-radius: 10px;
-     padding: 10px;
+     padding: 20px;
 
       /* margin-left: 20%; */
       /* margin-right: 30%; */
       }
       .fill-up{
           color: gold;
+      }
+      span{
+          padding-left: 10px;
+        color: 
+        #3A3A3A;
+
       }
 
       /* footer styles */
