@@ -77,6 +77,12 @@ nav ul li{
      padding: 10px;
      margin-left: 20%;
      margin-right: 30%;
-     
-    
- }
+      }
+
+      /* footer styles */
+
+      footer{
+          background-color: yellowgreen;
+          text-align: center;
+          padding: 10px;
+      }
