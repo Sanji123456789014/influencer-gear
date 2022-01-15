@@ -172,7 +172,6 @@ button a{
           
           .introduction{
             display: grid;
-    
             align-items: center; }
             .product{
                 width:70%;
@@ -182,6 +181,10 @@ button a{
              display: grid; 
               grid-template-columns: repeat(1,1fr);
 
+          }
+          .conclusion{
+            display: grid;
+            align-items: center;
           }
           
       }
