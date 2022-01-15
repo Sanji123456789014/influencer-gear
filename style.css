@@ -43,7 +43,7 @@ nav ul li{
 }
 
 .start-journey{
-    width: 40%;
+    width: 50%;
     padding-left: 50px;
 
 }
@@ -59,6 +59,28 @@ nav ul li{
     width: 400px;
 
 }
+.introduction img:hover{
+    height: 500px;
+    width: 500px ;
+    transform: scale(2s);
+    transition: transform 2 ease-in-out 0.1s;
+}
+button{
+    height: 50px;
+    width: 20%;
+    padding: 10px;
+    background-color: rgb(179, 47, 73);
+    border-radius: 15px;
+}
+button a{
+    font-size: 25px;
+    color: white;
+    text-decoration: none;
+}
+.font{
+    font-size: 20px ;
+    color: white;
+}
 
  /* products-style */
  h4{
@@ -69,6 +91,7 @@ nav ul li{
  }
  
  .container{
+     background-color: rgba(161, 159, 159, 0.116);
      display: grid;
      grid-template-columns: repeat(3,1fr);
      justify-content: center;
@@ -78,10 +101,13 @@ nav ul li{
      
    }
  .product{
+     background-color: white;
      border: 1px solid white;
+     border-radius: 10px;
      padding: 10px;
-     /* margin-left: 20%; */
-     /* margin-right: 30%; */
+
+      /* margin-left: 20%; */
+      /* margin-right: 30%; */
       }
       .fill-up{
           color: gold;
