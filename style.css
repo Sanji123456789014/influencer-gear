@@ -59,12 +59,7 @@ nav ul li{
     width: 400px;
 
 }
-.button{
-    color: honeydew;
-    background-color: crimson;
-    text-decoration: none;
-    height: 20px;
-}
+
  /* products-style */
  h4{
      text-align: center;
@@ -100,7 +95,7 @@ nav ul li{
           text-align: center;
           padding: 10px;
       }
-      @media (max-width: 688px) {
+      @media (max-width: 576px) {
           
           .introduction{
             display: grid;
